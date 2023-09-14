@@ -62,7 +62,7 @@ class _DashboardState extends State<Dashboard> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const HeadingRow(
+                        const HeadingWidget(
                           heading: 'Popular Movies',
                         ),
                         const SizedBox(
@@ -152,7 +152,7 @@ class _DashboardState extends State<Dashboard> {
                         const SizedBox(
                           height: 20,
                         ),
-                        const HeadingRow(
+                        const HeadingWidget(
                           heading: 'Popular TV SHows',
                         ),
                         const SizedBox(
@@ -242,7 +242,7 @@ class _DashboardState extends State<Dashboard> {
                         const SizedBox(
                           height: 20,
                         ),
-                        const HeadingRow(
+                        const HeadingWidget(
                           heading: 'Popular Animes',
                         ),
                         const SizedBox(
@@ -341,7 +341,7 @@ class _DashboardState extends State<Dashboard> {
                         const SizedBox(
                           height: 20,
                         ),
-                        const HeadingRow(
+                        const HeadingWidget(
                           heading: 'Popular Peoples',
                         ),
                         const SizedBox(

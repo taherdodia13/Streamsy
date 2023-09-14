@@ -4,9 +4,9 @@ import 'package:velocity_x/velocity_x.dart';
 
 import '../../configurations/app_configurations.dart';
 
-class HeadingRow extends StatelessWidget {
+class HeadingWidget extends StatelessWidget {
   final String heading;
-  const HeadingRow({super.key, required this.heading});
+  const HeadingWidget({super.key, required this.heading});
 
   @override
   Widget build(BuildContext context) {
